@@ -1,0 +1,9 @@
+overwrite: true
+schema: "https://tutorial.saleor.cloud/graphql/"
+documents: "graphql/**/*.graphql"
+generates:
+  saleor/api.ts:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-react-apollo"
