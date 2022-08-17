@@ -7,10 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "generate": "graphql-codegen --config codegen.yml"
+    "generate": "graphql-codegen --config codegen.yml -w"
   },
   "dependencies": {
     "@apollo/client": "^3.6.9",
+    "clsx": "^1.2.1",
     "graphql": "^16.5.0",
     "graphql-tag": "^2.0.0",
     "next": "12.2.2",
